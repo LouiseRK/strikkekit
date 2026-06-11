@@ -1,0 +1,19 @@
+{
+  "name": "knit-kit-app",
+  "version": "1.0.0",
+  "description": "Shopify app til lagerstyring af strikkekit",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.4.3",
+    "node-fetch": "^2.7.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
