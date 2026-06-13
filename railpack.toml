@@ -1,1 +1,2 @@
-
+[build]
+# Include source files in the runtime image
